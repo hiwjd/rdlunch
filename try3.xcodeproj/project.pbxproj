@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03372AA31FB24051009AE2BA /* URLNavigatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLNavigatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03372AA31FB24051009AE2BA /* try3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = try3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03372ABB1FB24090009AE2BA /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		03372ABC1FB24090009AE2BA /* GitHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
 		03372ABE1FB24090009AE2BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		03372A9A1FB24051009AE2BA = {
 			isa = PBXGroup;
 			children = (
-				03372ADF1FB240EB009AE2BA /* URLNavigatorExample */,
+				03372ADF1FB240EB009AE2BA /* try3 */,
 				03372AA41FB24051009AE2BA /* Products */,
 				EEC6099FAAB2F793D3A93FB1 /* Pods */,
 				20A5FD6C3C8831209E3BC811 /* Frameworks */,
@@ -69,7 +69,7 @@
 		03372AA41FB24051009AE2BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03372AA31FB24051009AE2BA /* URLNavigatorExample.app */,
+				03372AA31FB24051009AE2BA /* try3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,14 +151,14 @@
 			path = Sources/Resources;
 			sourceTree = SOURCE_ROOT;
 		};
-		03372ADF1FB240EB009AE2BA /* URLNavigatorExample */ = {
+		03372ADF1FB240EB009AE2BA /* try3 */ = {
 			isa = PBXGroup;
 			children = (
 				03372AB91FB24090009AE2BA /* Sources */,
 				03372ACC1FB24090009AE2BA /* Resources */,
 				03372ACA1FB24090009AE2BA /* Supporting Files */,
 			);
-			name = URLNavigatorExample;
+			name = try3;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03372AA21FB24051009AE2BA /* URLNavigatorExample */ = {
+		03372AA21FB24051009AE2BA /* try3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "URLNavigatorExample" */;
+			buildConfigurationList = 03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "try3" */;
 			buildPhases = (
 				4146A78F64B0B52B94CDF4E3 /* [CP] Check Pods Manifest.lock */,
 				03372A9F1FB24051009AE2BA /* Sources */,
@@ -196,9 +196,9 @@
 			);
 			dependencies = (
 			);
-			name = URLNavigatorExample;
+			name = try3;
 			productName = URLNavigatorExample;
-			productReference = 03372AA31FB24051009AE2BA /* URLNavigatorExample.app */;
+			productReference = 03372AA31FB24051009AE2BA /* try3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "URLNavigatorExample" */;
+			buildConfigurationList = 03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "try3" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,7 +230,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03372AA21FB24051009AE2BA /* URLNavigatorExample */,
+				03372AA21FB24051009AE2BA /* try3 */,
 			);
 		};
 /* End PBXProject section */
@@ -465,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "URLNavigatorExample" */ = {
+		03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "try3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03372AB31FB24051009AE2BA /* Debug */,
@@ -474,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "URLNavigatorExample" */ = {
+		03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "try3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03372AB61FB24051009AE2BA /* Debug */,
