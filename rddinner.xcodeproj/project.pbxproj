@@ -19,12 +19,12 @@
 		03372ADA1FB24090009AE2BA /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03372AC91FB24090009AE2BA /* UserCell.swift */; };
 		03372ADC1FB24090009AE2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03372ACD1FB24090009AE2BA /* Assets.xcassets */; };
 		03372ADD1FB24090009AE2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03372ACE1FB24090009AE2BA /* LaunchScreen.storyboard */; };
-		AEBA3A7C3206A99BFC95CB3F /* Pods_URLNavigatorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF237F2C3DB0EDAE532DDB20 /* Pods_URLNavigatorExample.framework */; };
+		67C1CBE0F7B2ECEF06F70625 /* Pods_rddinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3690E82DDF95F120BB0289DB /* Pods_rddinner.framework */; };
 		F878C1332112F2DF00B17681 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878C1322112F2DF00B17681 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03372AA31FB24051009AE2BA /* try3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = try3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03372AA31FB24051009AE2BA /* rddinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rddinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03372ABB1FB24090009AE2BA /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		03372ABC1FB24090009AE2BA /* GitHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
 		03372ABE1FB24090009AE2BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -38,9 +38,12 @@
 		03372ACB1FB24090009AE2BA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03372ACD1FB24090009AE2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03372ACF1FB24090009AE2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3690E82DDF95F120BB0289DB /* Pods_rddinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rddinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CB4A560847009FD0F9ABF3 /* Pods-URLNavigatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavigatorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLNavigatorExample/Pods-URLNavigatorExample.release.xcconfig"; sourceTree = "<group>"; };
 		AF237F2C3DB0EDAE532DDB20 /* Pods_URLNavigatorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLNavigatorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6EAAF22F8012DB25326C67 /* Pods-URLNavigatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavigatorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLNavigatorExample/Pods-URLNavigatorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C561AC8464193FF7E686CFA5 /* Pods-rddinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rddinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rddinner/Pods-rddinner.debug.xcconfig"; sourceTree = "<group>"; };
+		F6436FAF031071172C0C2802 /* Pods-rddinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rddinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-rddinner/Pods-rddinner.release.xcconfig"; sourceTree = "<group>"; };
 		F878C1322112F2DF00B17681 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBA3A7C3206A99BFC95CB3F /* Pods_URLNavigatorExample.framework in Frameworks */,
+				67C1CBE0F7B2ECEF06F70625 /* Pods_rddinner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +62,7 @@
 		03372A9A1FB24051009AE2BA = {
 			isa = PBXGroup;
 			children = (
-				03372ADF1FB240EB009AE2BA /* try3 */,
+				03372ADF1FB240EB009AE2BA /* rddinner */,
 				03372AA41FB24051009AE2BA /* Products */,
 				EEC6099FAAB2F793D3A93FB1 /* Pods */,
 				20A5FD6C3C8831209E3BC811 /* Frameworks */,
@@ -69,7 +72,7 @@
 		03372AA41FB24051009AE2BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03372AA31FB24051009AE2BA /* try3.app */,
+				03372AA31FB24051009AE2BA /* rddinner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,14 +154,14 @@
 			path = Sources/Resources;
 			sourceTree = SOURCE_ROOT;
 		};
-		03372ADF1FB240EB009AE2BA /* try3 */ = {
+		03372ADF1FB240EB009AE2BA /* rddinner */ = {
 			isa = PBXGroup;
 			children = (
 				03372AB91FB24090009AE2BA /* Sources */,
 				03372ACC1FB24090009AE2BA /* Resources */,
 				03372ACA1FB24090009AE2BA /* Supporting Files */,
 			);
-			name = try3;
+			name = rddinner;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -166,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				AF237F2C3DB0EDAE532DDB20 /* Pods_URLNavigatorExample.framework */,
+				3690E82DDF95F120BB0289DB /* Pods_rddinner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,6 +179,8 @@
 			children = (
 				BC6EAAF22F8012DB25326C67 /* Pods-URLNavigatorExample.debug.xcconfig */,
 				A4CB4A560847009FD0F9ABF3 /* Pods-URLNavigatorExample.release.xcconfig */,
+				C561AC8464193FF7E686CFA5 /* Pods-rddinner.debug.xcconfig */,
+				F6436FAF031071172C0C2802 /* Pods-rddinner.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -182,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03372AA21FB24051009AE2BA /* try3 */ = {
+		03372AA21FB24051009AE2BA /* rddinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "try3" */;
+			buildConfigurationList = 03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "rddinner" */;
 			buildPhases = (
 				4146A78F64B0B52B94CDF4E3 /* [CP] Check Pods Manifest.lock */,
 				03372A9F1FB24051009AE2BA /* Sources */,
@@ -196,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = try3;
+			name = rddinner;
 			productName = URLNavigatorExample;
-			productReference = 03372AA31FB24051009AE2BA /* try3.app */;
+			productReference = 03372AA31FB24051009AE2BA /* rddinner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "try3" */;
+			buildConfigurationList = 03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "rddinner" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03372AA21FB24051009AE2BA /* try3 */,
+				03372AA21FB24051009AE2BA /* rddinner */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +265,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-URLNavigatorExample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rddinner-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -272,7 +278,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-URLNavigatorExample/Pods-URLNavigatorExample-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-rddinner/Pods-rddinner-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -281,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLNavigatorExample/Pods-URLNavigatorExample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rddinner/Pods-rddinner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -432,14 +438,15 @@
 		};
 		03372AB61FB24051009AE2BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC6EAAF22F8012DB25326C67 /* Pods-URLNavigatorExample.debug.xcconfig */;
+			baseConfigurationReference = C561AC8464193FF7E686CFA5 /* Pods-rddinner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZV3DGT5Q5H;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.URLNavigatorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiwjd.rddinner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,14 +455,15 @@
 		};
 		03372AB71FB24051009AE2BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4CB4A560847009FD0F9ABF3 /* Pods-URLNavigatorExample.release.xcconfig */;
+			baseConfigurationReference = F6436FAF031071172C0C2802 /* Pods-rddinner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZV3DGT5Q5H;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.URLNavigatorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiwjd.rddinner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "try3" */ = {
+		03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "rddinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03372AB31FB24051009AE2BA /* Debug */,
@@ -474,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "try3" */ = {
+		03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "rddinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03372AB61FB24051009AE2BA /* Debug */,

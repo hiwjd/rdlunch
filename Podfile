@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-target 'URLNavigatorExample' do
+target 'rddinner' do
   use_frameworks!
   pod 'URLNavigator'
 end
