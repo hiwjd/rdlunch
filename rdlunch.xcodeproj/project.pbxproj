@@ -19,12 +19,12 @@
 		03372ADA1FB24090009AE2BA /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03372AC91FB24090009AE2BA /* UserCell.swift */; };
 		03372ADC1FB24090009AE2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03372ACD1FB24090009AE2BA /* Assets.xcassets */; };
 		03372ADD1FB24090009AE2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03372ACE1FB24090009AE2BA /* LaunchScreen.storyboard */; };
-		67C1CBE0F7B2ECEF06F70625 /* Pods_rddinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3690E82DDF95F120BB0289DB /* Pods_rddinner.framework */; };
+		358BFFB89977564B077876E0 /* Pods_rdlunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754CFD24C9EFCBA6CFB67896 /* Pods_rdlunch.framework */; };
 		F878C1332112F2DF00B17681 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878C1322112F2DF00B17681 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03372AA31FB24051009AE2BA /* rddinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rddinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03372AA31FB24051009AE2BA /* rdlunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rdlunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03372ABB1FB24090009AE2BA /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		03372ABC1FB24090009AE2BA /* GitHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
 		03372ABE1FB24090009AE2BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -39,8 +39,11 @@
 		03372ACD1FB24090009AE2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03372ACF1FB24090009AE2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3690E82DDF95F120BB0289DB /* Pods_rddinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rddinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567E68FE522D8D8BCEB49E51 /* Pods-rdlunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rdlunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-rdlunch/Pods-rdlunch.release.xcconfig"; sourceTree = "<group>"; };
+		754CFD24C9EFCBA6CFB67896 /* Pods_rdlunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rdlunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CB4A560847009FD0F9ABF3 /* Pods-URLNavigatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavigatorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLNavigatorExample/Pods-URLNavigatorExample.release.xcconfig"; sourceTree = "<group>"; };
 		AF237F2C3DB0EDAE532DDB20 /* Pods_URLNavigatorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLNavigatorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AB8FEB510DC2EFBF6B0C7D /* Pods-rdlunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rdlunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rdlunch/Pods-rdlunch.debug.xcconfig"; sourceTree = "<group>"; };
 		BC6EAAF22F8012DB25326C67 /* Pods-URLNavigatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavigatorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLNavigatorExample/Pods-URLNavigatorExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C561AC8464193FF7E686CFA5 /* Pods-rddinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rddinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rddinner/Pods-rddinner.debug.xcconfig"; sourceTree = "<group>"; };
 		F6436FAF031071172C0C2802 /* Pods-rddinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rddinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-rddinner/Pods-rddinner.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C1CBE0F7B2ECEF06F70625 /* Pods_rddinner.framework in Frameworks */,
+				358BFFB89977564B077876E0 /* Pods_rdlunch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +65,7 @@
 		03372A9A1FB24051009AE2BA = {
 			isa = PBXGroup;
 			children = (
-				03372ADF1FB240EB009AE2BA /* rddinner */,
+				03372ADF1FB240EB009AE2BA /* rdlunch */,
 				03372AA41FB24051009AE2BA /* Products */,
 				EEC6099FAAB2F793D3A93FB1 /* Pods */,
 				20A5FD6C3C8831209E3BC811 /* Frameworks */,
@@ -72,7 +75,7 @@
 		03372AA41FB24051009AE2BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03372AA31FB24051009AE2BA /* rddinner.app */,
+				03372AA31FB24051009AE2BA /* rdlunch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,14 +157,14 @@
 			path = Sources/Resources;
 			sourceTree = SOURCE_ROOT;
 		};
-		03372ADF1FB240EB009AE2BA /* rddinner */ = {
+		03372ADF1FB240EB009AE2BA /* rdlunch */ = {
 			isa = PBXGroup;
 			children = (
 				03372AB91FB24090009AE2BA /* Sources */,
 				03372ACC1FB24090009AE2BA /* Resources */,
 				03372ACA1FB24090009AE2BA /* Supporting Files */,
 			);
-			name = rddinner;
+			name = rdlunch;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -170,6 +173,7 @@
 			children = (
 				AF237F2C3DB0EDAE532DDB20 /* Pods_URLNavigatorExample.framework */,
 				3690E82DDF95F120BB0289DB /* Pods_rddinner.framework */,
+				754CFD24C9EFCBA6CFB67896 /* Pods_rdlunch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +185,8 @@
 				A4CB4A560847009FD0F9ABF3 /* Pods-URLNavigatorExample.release.xcconfig */,
 				C561AC8464193FF7E686CFA5 /* Pods-rddinner.debug.xcconfig */,
 				F6436FAF031071172C0C2802 /* Pods-rddinner.release.xcconfig */,
+				B6AB8FEB510DC2EFBF6B0C7D /* Pods-rdlunch.debug.xcconfig */,
+				567E68FE522D8D8BCEB49E51 /* Pods-rdlunch.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -188,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03372AA21FB24051009AE2BA /* rddinner */ = {
+		03372AA21FB24051009AE2BA /* rdlunch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "rddinner" */;
+			buildConfigurationList = 03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "rdlunch" */;
 			buildPhases = (
 				4146A78F64B0B52B94CDF4E3 /* [CP] Check Pods Manifest.lock */,
 				03372A9F1FB24051009AE2BA /* Sources */,
@@ -202,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = rddinner;
+			name = rdlunch;
 			productName = URLNavigatorExample;
-			productReference = 03372AA31FB24051009AE2BA /* rddinner.app */;
+			productReference = 03372AA31FB24051009AE2BA /* rdlunch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "rddinner" */;
+			buildConfigurationList = 03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "rdlunch" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +242,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03372AA21FB24051009AE2BA /* rddinner */,
+				03372AA21FB24051009AE2BA /* rdlunch */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +271,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rddinner-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rdlunch-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -278,7 +284,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-rddinner/Pods-rddinner-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-rdlunch/Pods-rdlunch-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -287,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rddinner/Pods-rddinner-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rdlunch/Pods-rdlunch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -438,7 +444,7 @@
 		};
 		03372AB61FB24051009AE2BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C561AC8464193FF7E686CFA5 /* Pods-rddinner.debug.xcconfig */;
+			baseConfigurationReference = B6AB8FEB510DC2EFBF6B0C7D /* Pods-rdlunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,7 +452,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiwjd.rddinner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiwjd.rdlunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +461,7 @@
 		};
 		03372AB71FB24051009AE2BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6436FAF031071172C0C2802 /* Pods-rddinner.release.xcconfig */;
+			baseConfigurationReference = 567E68FE522D8D8BCEB49E51 /* Pods-rdlunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,7 +469,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiwjd.rddinner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiwjd.rdlunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +479,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "rddinner" */ = {
+		03372A9E1FB24051009AE2BA /* Build configuration list for PBXProject "rdlunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03372AB31FB24051009AE2BA /* Debug */,
@@ -482,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "rddinner" */ = {
+		03372AB51FB24051009AE2BA /* Build configuration list for PBXNativeTarget "rdlunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03372AB61FB24051009AE2BA /* Debug */,
